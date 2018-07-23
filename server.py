@@ -16,7 +16,7 @@ class ChatServer(dispatcher):
 
     def handle_accept(self):
         conn, addr = self.accept()
-        print "Connection attempt from", addr[0]
+        print("Connection attempt from", addr[0])
 
 if __name__ == '__main__':
     s = ChatServer()
