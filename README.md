@@ -6,4 +6,9 @@ login
 say
 logout
 * easy to extend
-
+## Chatroom command
+* login <nickname>
+* logout 
+* say <words>
+* look
+* who
